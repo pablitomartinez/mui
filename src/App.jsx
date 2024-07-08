@@ -3,6 +3,7 @@ import AddAPhotoIcon from "@mui/icons-material/AddAPhoto";
 import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
 import Cuadro from "./cuadro";
 import Product from "./components/product";
+import BluuCard from "./components/BluuCard";
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
 
       <Cuadro/>
       <Product />
+      <BluuCard />
     </Container>
   );
 }
